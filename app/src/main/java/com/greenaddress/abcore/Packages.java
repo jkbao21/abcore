@@ -30,9 +30,9 @@ class Packages {
             "6480784i686-linux-android35ebf1aca32caff99d7346ce93775d9fea8f2bd4cf57edcc78f0ff71b087c10c",
             "6656944x86_64-linux-android947f94562018a45cbea9efcc391489fd54f578343eeb8c7dd5b48529d2b93c15"
             );
-    private final static String URL = "https://github.com/greenaddress/bitcoin_ndk/releases/download/v0.19.0.1/%s_bitcoin%s.tar.xz";
-    private final static String URL_KNOTS = "https://github.com/greenaddress/bitcoin_ndk/releases/download/v0.19.0.1/%s_bitcoin%s.tar.xz";
-    private final static String URL_LIQUID = "https://github.com/greenaddress/bitcoin_ndk/releases/download/v0.19.0.1/%s_%s.tar.xz";
+    private final static String URL = "https://github.com/jkbao21/bitcoin_ndk/releases/download/v0.19.0.1/%s_bitcoin%s.tar.xz";
+    private final static String URL_KNOTS = "https://github.com/jkbao21/bitcoin_ndk/releases/download/v0.19.0.1/%s_bitcoin%s.tar.xz";
+    private final static String URL_LIQUID = "https://github.com/jkbao21/bitcoin_ndk/releases/download/v0.19.0.1/%s_%s.tar.xz";
 
     static String getPackageUrl(final String distro, final String arch) {
         if ("core".equals(distro)) {
